@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityDetails">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="FAMOUS FOOD DISHES"
+            android:textColor="#36415f"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_place2image" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/citydetails_food1image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+
+            android:src="@drawable/chapatimahdia"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@+id/divider3"
+            />
+
+        <TextView
+            android:id="@+id/citydetails_food1name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            app:layout_constraintStart_toEndOf="@+id/citydetails_food1image"
+            app:layout_constraintTop_toTopOf="@+id/citydetails_food1image" />
+
+        <TextView
+            android:id="@+id/citydetails_place1description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Description here"
+            android:textColor="#CC000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/citydetails_place1image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/citydetails_place1name"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_place1name" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/citydetails_food2image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/brikmahdia"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_food1image"
+             />
+
+        <TextView
+            android:id="@+id/citydetails_food2name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/citydetails_food2image"
+            app:layout_constraintTop_toTopOf="@+id/citydetails_food2image" />
+
+        <TextView
+            android:id="@+id/citydetails_food2description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Description here"
+            android:textColor="#CC000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/citydetails_food2image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/citydetails_food2image"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_food2name" />
+
+        <TextView
+            android:id="@+id/citydetails_place2description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Description here"
+            android:textColor="#CC000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/citydetails_place2image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/citydetails_place1name"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_place2name" />
+
+        <TextView
+            android:id="@+id/citydetails_place2name"
+            android:layout_width="240dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="33dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Description here"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/citydetails_place2image"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_place1description" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/citydetails_place2image"
+            android:layout_width="80dp"
+            android:layout_height="93dp"
+            android:layout_marginTop="32dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+
+            android:src="@drawable/djammuseum"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@id/citydetails_place1image"
+           />
+
+        <TextView
+            android:id="@+id/citydetails_place1name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/citydetails_place1image"
+            app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+        <TextView
+            android:id="@+id/citydetails_food1description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Description here"
+            android:textColor="#CC000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/citydetails_food1image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/citydetails_place1name"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_food1name" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="TOURIST ATTRACTIONS"
+            android:textColor="#36415f"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_getlocationbtn" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/citydetails_besttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Best time to visit"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_description" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="325dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Best Time to VisitDescription hereDescription hereDescription hereBest Time to VisitDescription hereDescription hereDescription hereBest Time to VisitDescription hereDescription hereDescription here"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_besttime" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/citydetails_image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/djem"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/citydetails_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="El Djem, Mahdia"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/citydetails_image" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="OVERVIEW"
+            android:textColor="#36415f"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_name" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        <TextView
+            android:id="@+id/citydetails_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Description hereDescription hereDescription hereDescription hereDescription here"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <Button
+            android:id="@+id/citydetails_getlocationbtn"
+            android:layout_width="235dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/button"
+            android:drawableRight="@drawable/map"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:gravity="center"
+            android:text="See Location"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/citydetails_place1image"
+            android:layout_width="80dp"
+            android:layout_height="93dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/djem"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "23840758944",
+    "firebase_url": "https://gantara-default-rtdb.firebaseio.com",
+    "project_id": "gantara",
+    "storage_bucket": "gantara.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23840758944:android:c4a39ce55084f2fc59bdc5",
+        "android_client_info": {
+          "package_name": "n.rnu.isetr.tunisiatourism"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6oU-qnZqFvQ40plSr5zclxFWop1MmvFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
