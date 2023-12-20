@@ -1,20 +1,12 @@
-GANTARA: Your Gateway to Unforgettable Journeys
+Tourism-Tunisia is a simple app for Tour guides in Tunisia made using Firebase Realtime Database
 
-Embark on a journey like never before with GANTARA, your ultimate travel companion in the world of tourism. GANTARA is a cutting-edge application designed to elevate your travel experience, providing seamless access to a plethora of destinations, cultural gems, and thrilling adventures.
-
-Explore the World:
-With GANTARA, the world is at your fingertips. Browse through an extensive collection of destinations, from exotic tropical paradises to historic landmarks and vibrant urban landscapes. Whether you're a nature enthusiast, a history buff, or a thrill-seeker, GANTARA caters to all travel preferences, ensuring a diverse range of options for every explorer.
-
-Personalized Itineraries:
-Say goodbye to generic travel plans. GANTARA understands that every traveler is unique, and so are their preferences. Create personalized itineraries tailored to your interests, whether you're into culinary delights, outdoor adventures, or cultural experiences. GANTARA's smart algorithms analyze your preferences to recommend the perfect activities and attractions for your dream getaway.
-
-Real-Time Guidance:
-Navigate with confidence using GANTARA's real-time guidance feature. Receive instant updates on weather conditions, local events, and travel advisories to ensure a smooth and stress-free journey. GANTARA keeps you informed every step of the way, so you can focus on making lasting memories.
-
-Connect with Locals:
-Immerse yourself in the local culture with GANTARA's unique feature that connects travelers with knowledgeable locals. Gain insights, discover hidden gems, and engage in authentic cultural experiences guided by those who know their communities best. GANTARA fosters meaningful connections, making your travel experience richer and more fulfilling.
-
-Capture and Share Memories:
-Don't let your travel memories fade away. GANTARA allows you to capture and share your experiences effortlessly. Create digital travel journals, share stunning photos, and connect with fellow travelers, turning your adventures into unforgettable stories that can be cherished for years to come.
-
-GANTARA is not just an app; it's a doorway to a world of exploration, discovery, and connection. Download GANTARA now and let the journey begin!
+<img src="https://user-images.githubusercontent.com/80210946/209549219-94449f3b-0481-4016-b23f-ae3a27296dd7.jpg" width=300 height="600" />
+<img src="https://user-images.githubusercontent.com/80210946/209549224-899c4d09-0c93-4afd-b58a-a63829017e21.jpg" width=300 height="600" />
+<img src="https://user-images.githubusercontent.com/80210946/209549230-c2021646-e8dd-40fa-a78a-204b4e5e45ce.jpg" width=300 height="600" />
+<img src="https://user-images.githubusercontent.com/80210946/209549239-9125a82e-e7f8-42f1-a078-9b30adac7fe1.jpg" width=300 height="600" />
+<img src="https://user-images.githubusercontent.com/80210946/209549241-e6f19221-4c71-4e04-ba21-32f15eff5483.jpg" width=300 height="600" />
+<img src="https://user-images.githubusercontent.com/80210946/209549789-06a0035b-3936-43db-a0a6-295d23744d5b.jpg" width=300 height="600" />
+<img src="https://user-images.githubusercontent.com/80210946/209549249-0153be68-a716-44e2-9043-bd067823fbb5.jpg" width=300 height="600" />
+<img src="https://user-images.githubusercontent.com/80210946/209549256-785102e5-67cb-471b-92ae-c3d801592b26.jpg" width=300 height="600" />
+<img src="https://user-images.githubusercontent.com/80210946/209550033-f3196de3-3ba8-42db-981c-7fcf020d41ff.jpg" width=300 height="600" />
+<img src="https://user-images.githubusercontent.com/80210946/209549272-53f546ae-70c8-4db4-8c97-d1f19168dc16.jpg" width=300 height="600" />
