@@ -1,0 +1,1190 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Greetings",
+        "Hi there",
+        "Hey",
+        "Howdy",
+        "Hiya",
+        "What's up",
+        "Hi, how are you?",
+        "Hey, how's it going?",
+        "Well, hello there",
+        "Yo!",
+        "Hi! How can I help you?",
+        "Hello, what brings you here?"
+      ],
+      "responses": [
+        "Hello! Welcome to our Gantara Information Center.",
+        "Hello! Welcome!",
+        "Hi there! How can I assist you today?",
+        "Hey! How may I help you?",
+        "Greetings! What do you need assistance with?",
+        "Hey! Feel free to ask me anything.",
+        "Hi! I'm here to help. What do you need?",
+        "Howdy! Need any help?",
+        "Hiya! What can I do for you today?",
+        "What's up? How can I assist you?",
+        "Hi, how are you? What can I help you with?",
+        "Hey, how's it going? What brings you here?",
+        "Well, hello there! How may I assist you?",
+        "Yo! What can I do for you today?",
+        "Hi! How can I help you right now?",
+        "Hello, what brings you here? Need assistance?"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Take care",
+        "Have a great day",
+        "Until next time",
+        "Farewell",
+        "Catch you later",
+        "Adios",
+        "So long",
+        "Take it easy",
+        "Until we meet again",
+        "Toodles",
+        "Bye-bye",
+        "Ciao",
+        "See you soon",
+        "See ya"
+      ],
+      "responses": [
+        "Goodbye! Feel free to return if you have more questions.",
+        "Take care! Have a wonderful time exploring.",
+        "Farewell! If you need further assistance, don't hesitate to ask.",
+        "Bye-bye! Enjoy your day!",
+        "Adios! If you ever need information, I'm here.",
+        "See you soon! Don't hesitate to come back if you need more help.",
+        "Take it easy! If there's anything else I can assist you with, let me know.",
+        "Until we meet again! Have a great time!"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "destination",
+      "patterns": [
+        "Tourist attractions",
+        "Places to visit",
+        "Best destinations",
+        "Where should I go",
+        "Attractions",
+        "Top spots",
+        "Sightseeing places",
+        "Must-visit places",
+        "Tourist spots",
+        "Explore places",
+        "What are the famous attractions",
+        "Where are the hotspots",
+        "Recommend me some places",
+        "Suggest me attractions",
+        "Any famous destinations",
+        "Where can I explore"
+      ],
+      "responses": [
+        "There are many wonderful places to visit! Some popular destinations include the best destinations in Indonesia: Bali, Yogyakarta, Jakarta, Flores, Lombok, Raja Ampat, Bromo-Tengger-Semeru National Park, Toraja, Labuan Bajo, as well as top spots in Europe, Japan, and the Middle East.",
+        "Sure! You might want to explore the best destinations in Indonesia like Bali, Yogyakarta, Jakarta, Flores, Lombok, Raja Ampat, Bromo-Tengger-Semeru National Park, Toraja, Labuan Bajo, and other remarkable spots in Europe, Japan, and the Middle East.",
+        "When it comes to attractions, you should check out the top spots in Indonesia such as Bali, Yogyakarta, Jakarta, Flores, Lombok, Raja Ampat, Bromo-Tengger-Semeru National Park, Toraja, Labuan Bajo, along with notable places in Europe, Japan, and the Middle East.",
+        "You're in for a treat! Consider visiting the list of places to visit in Indonesia including Bali, Yogyakarta, Jakarta, Flores, Lombok, Raja Ampat, Bromo-Tengger-Semeru National Park, Toraja, Labuan Bajo, and explore the enchanting destinations in Europe, Japan, and the Middle East.",
+        "Indonesia offers breathtaking destinations like Bali, Yogyakarta, Jakarta, Flores, Lombok, Raja Ampat, Bromo-Tengger-Semeru National Park, Toraja, Labuan Bajo. Similarly, Europe boasts its own stunning spots, Japan has its iconic locations, the Middle East is rich in culture and history, and Bali is famous for its unique charm.",
+        "When it comes to exploring Indonesia, don't miss out on Bali, Yogyakarta, Jakarta, Flores, Lombok, Raja Ampat, Bromo-Tengger-Semeru National Park, Toraja, Labuan Bajo! Each place offers its own distinct beauty and attractions.",
+        "Indonesia's top destinations are a must-see! Consider visiting Bali, Yogyakarta, Jakarta, Flores, Lombok, Raja Ampat, Bromo-Tengger-Semeru National Park, Toraja, Labuan Bajo for an unforgettable experience.",
+        "The beauty of Indonesia lies in its diverse destinations including Bali, Yogyakarta, Jakarta, Flores, Lombok, Raja Ampat, Bromo-Tengger-Semeru National Park, Toraja, Labuan Bajo. Each place has its own unique charm waiting to be explored.",
+        "Discover Indonesia's treasures! Bali, Yogyakarta, Jakarta, Flores, Lombok, Raja Ampat, Bromo-Tengger-Semeru National Park, Toraja, Labuan Bajo are just a few of the exceptional destinations worth visiting.",
+        "For an unforgettable travel experience, explore Indonesia's gems such as Bali, Yogyakarta, Jakarta, Flores, Lombok, Raja Ampat, Bromo-Tengger-Semeru National Park, Toraja, Labuan Bajo. These destinations promise adventure and beauty.",
+        "Indonesia offers a myriad of attractions including Bali, Yogyakarta, Jakarta, Flores, Lombok, Raja Ampat, Bromo-Tengger-Semeru National Park, Toraja, Labuan Bajo. Each destination has its own allure and wonders waiting to be discovered."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+      ],
+      "responses": [
+        "Gantara team comprises passionate individuals dedicated to creating innovative solutions.",
+        "The Gantara team, a group of talented minds, worked together to develop me.",
+        "Our team, known as Gantara, collaborated to bring me into existence.",
+        "Gantara team members pooled their expertise to design and build me.",
+        "The creative minds behind me belong to the incredible Gantara team.",
+        "Gantara team members are the brilliant minds responsible for my creation.",
+        "I was developed by the talented individuals that form the Gantara team.",
+        "The team known as Gantara are the ones who crafted and developed me.",
+        "The Gantara team is a group of visionary creators who brought me to life.",
+        "Gantara team members are the architects behind my existence."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i talking to",
+        "what are you",
+        "tell me your name"
+      ],
+      "responses": [
+        "You can call me Gantabot.",
+        "I'm Gantabot.",
+        "I am Gantabot, your assistant.",
+        "I am your helper, Gantabot.",
+        "Feel free to address me as Gantabot.",
+        "I'm here to assist you. I'm Gantabot.",
+        "I go by the name Gantabot.",
+        "Greetings! I'm Gantabot, your assistant.",
+        "I am Gantabot, at your service.",
+        "You're chatting with Gantabot."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "event",
+      "patterns": [
+        "Upcoming events",
+        "Events near me",
+        "Local happenings",
+        "What's happening this weekend",
+        "Any events around",
+        "Tell me about upcoming events",
+        "What events are scheduled",
+        "Current events",
+        "Any special events",
+        "Events this month",
+        "Any festivals coming up",
+        "What's on the calendar",
+        "Events and festivals",
+        "Tell me about local attractions",
+        "Tourist events",
+        "Cultural events",
+        "Outdoor events",
+        "Music festivals",
+        "Art exhibitions",
+        "Any events for tourists"
+      ],
+      "responses": [
+        "Explore exciting events happening around! Check out the local calendar for more details.",
+        "Stay updated with the latest events! Discover cultural festivals, music concerts, and more.",
+        "Looking for things to do? Dive into the vibrant scene of upcoming events in the area.",
+        "Find your next adventure! Discover local events, festivals, and activities.",
+        "Plan your trip with the latest information on events and attractions.",
+        "Stay in the loop with upcoming events! There's always something happening.",
+        "Experience the local culture with events and festivals. What are you interested in?",
+        "Discover a variety of events and festivals to make your visit memorable.",
+        "Don't miss out on the excitement! Explore the events and festivals in your destination.",
+        "From cultural celebrations to music festivals, find the best events in town.",
+        "Check out the calendar of events to make the most of your visit!",
+        "Get ready for a great time! Explore the upcoming events and plan your itinerary.",
+        "Immerse yourself in the local scene! Find out about the latest events and attractions.",
+        "Stay informed about the hottest events in the area. What are you in the mood for?",
+        "Explore the local culture through events and festivals. What interests you the most?",
+        "Discover a world of events and attractions. Your adventure begins here!",
+        "Plan your journey with insights into upcoming events. What type of events do you enjoy?",
+        "Find out what's happening in the city! Explore events and make your trip memorable.",
+        "Experience the local vibe with events and festivals. What are you curious about?",
+        "Unlock the best of the destination by attending local events and festivals.",
+        "Enhance your travel experience with information about upcoming events and attractions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Bali",
+      "patterns": [
+        "Famous places in Bali",
+        "Top attractions in Bali",
+        "Must-see places in Bali",
+        "Bali sightseeing",
+        "Things to do in Bali",
+        "Bali hotspots",
+        "Where should I go in Bali",
+        "Explore attractions in Bali",
+        "Best sights in Bali",
+        "What's special about Bali"
+      ],
+      "responses": [
+        "Bali's charm lies in its diverse experiences, whether you're into beach parties in Seminyak or peaceful yoga retreats in Ubud.",
+        "One must-visit spot in Bali is the Tegallalang Rice Terraces, offering breathtaking panoramic views of the lush greenery.",
+        "Explore Bali's vibrant art scene at the Ubud Art Market and don't miss the chance to witness local craftsmanship and traditional artworks.",
+        "Discover Bali's spiritual side by visiting the Goa Gajah temple, known for its historical significance and intricate stone carvings.",
+        "For a day of relaxation, indulge in a spa session in the town of Seminyak, known for its luxurious wellness centers.",
+        "Witness the vibrant sunset at Tanah Lot Temple, a mesmerizing sight with the temple perched on a rock formation in the sea.",
+        "Embrace Bali's nightlife at Potato Head Beach Club, a hotspot for music, cocktails, and beachfront ambiance.",
+        "Explore the underwater world by diving or snorkeling in Amed, where colorful coral reefs and diverse marine life await.",
+        "Take a stroll through the Monkey Forest in Ubud and get a chance to interact with playful macaques in their natural habitat.",
+        "Enjoy a thrilling ATV ride through Bali's countryside, offering an adrenaline-packed experience amidst stunning landscapes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Yogyakarta",
+      "patterns": [
+        "Tourist attractions in Yogyakarta",
+        "What to do in Yogyakarta?",
+        "Suggestions for vacation in Yogyakarta",
+        "Places to visit in Yogyakarta",
+        "Interesting destinations in Yogyakarta",
+        "Must-visit places in Yogyakarta",
+        "Cultural attractions in Yogyakarta",
+        "Shopping spots in Yogyakarta",
+        "Historical sites in Yogyakarta",
+        "Activities in Yogyakarta"
+      ],
+      "responses": [
+        "Yogyakarta is a place rich in culture, from the Yogyakarta Palace (Keraton Yogyakarta) to the magnificent Prambanan Temple.",
+        "Visit Borobudur Temple, a stunning UNESCO World Heritage site with mesmerizing architecture.",
+        "Explore Taman Sari, the former royal palace of Keraton, offering beautiful architecture and rich history.",
+        "Don't miss out on Yogyakarta's signature dishes like gudeg and bakpia when visiting.",
+        "Take a local tour to better understand the daily life of Yogyakarta's people and its unique culture.",
+        "Don't forget to shop for souvenirs at Beringharjo Market or Malioboro, where you'll find a variety of local crafts.",
+        "Enjoy the tranquility and natural beauty of Parangtritis Beach, one of the most popular beaches in Yogyakarta.",
+        "Witness an engaging wayang kulit (shadow puppet) performance and delve into Javanese traditional art in Yogyakarta.",
+        "Explore Mount Merapi by trekking its slopes or admire its peak from a distance for its breathtaking views.",
+        "Indulge in Yogyakarta's culinary delights on Malioboro Street, where you can taste a variety of delicious local foods."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Jakarta",
+      "patterns": [
+        "What to do in Jakarta?",
+        "Tourist spots in Jakarta",
+        "Places to visit in Jakarta",
+        "Things to see in Jakarta",
+        "Must-visit places in Jakarta",
+        "Attractions in Jakarta",
+        "Activities in Jakarta",
+        "Famous landmarks in Jakarta",
+        "Cultural sites in Jakarta",
+        "Shopping in Jakarta"
+      ],
+      "responses": [
+        "Explore the historic old town of Jakarta, known as Kota Tua, showcasing Dutch colonial architecture and museums.",
+        "Visit the National Monument (Monas) for a great view of the city from the top and learn about Indonesia's history.",
+        "Discover Taman Mini Indonesia Indah (Beautiful Indonesia Miniature Park), a cultural park representing Indonesia's diverse culture.",
+        "Enjoy the vibrant atmosphere and taste local delicacies at street food centers like Glodok, Sabang Street, or Pecenongan.",
+        "Shop for local and international brands at malls like Grand Indonesia, Plaza Indonesia, or Pacific Place.",
+        "Explore Jakarta's religious harmony by visiting Istiqlal Mosque and Jakarta Cathedral, located side by side.",
+        "Spend time in Ancol Dreamland, a recreational complex featuring a theme park, waterpark, and beautiful seaside views.",
+        "Experience Jakarta's art and culture at the Jakarta Arts Theater or explore local art galleries in Kemang or Ciputra Artpreneur.",
+        "Visit Ragunan Zoo, home to various animal species, and relax in the midst of nature at this vast zoo park.",
+        "Take a stroll at the Jakarta Baywalk and enjoy the sunset while experiencing the city's coastal vibes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Flores",
+      "patterns": [
+        "Any hidden gems in Flores?",
+        "Tell me about Flores' hidden treasures",
+        "What's unique about Flores?",
+        "Hidden spots in Flores",
+        "What makes Flores special?",
+        "Off-the-beaten-path Flores attractions",
+        "Lesser-known places in Flores",
+        "Flores' best-kept secrets"
+      ],
+      "responses": [
+        "Explore the stunning caves of Goa Rangko with their crystal-clear waters, perfect for swimming and snorkeling.",
+        "Visit the picturesque Cunca Wulang Canyon, a hidden gem with beautiful waterfalls and natural pools for a refreshing dip.",
+        "Discover the traditional village of Wologai, offering insight into the authentic culture and customs of the Ngada people.",
+        "Venture to Riung 17 Islands Marine Park, known for its pristine beaches, diverse marine life, and breathtaking viewpoints.",
+        "Head to Ruteng Nature Recreation Park for trekking amidst lush forests, serene lakes, and a tranquil natural setting.",
+        "Experience the traditional 'Suling Bambu' music at Sikka Village, a unique cultural experience showcasing local musical heritage.",
+        "Explore the ancient megalithic site of Todo Village, known for its fascinating stone structures and historical significance.",
+        "Take a hike to Wae Rebo, a secluded village nestled in the mountains, offering a glimpse into traditional Manggarai housing."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Lombok",
+      "patterns": [
+        "What should I do in Lombok?",
+        "Best activities in Lombok?",
+        "Can you suggest Lombok attractions?",
+        "Tell me about Lombok's attractions",
+        "What's special about Lombok?",
+        "Top things to see in Lombok",
+        "Places to visit in Lombok",
+        "Must-visit spots in Lombok"
+      ],
+      "responses": [
+        "Visit the pristine beaches of Kuta and Tanjung Aan, famous for their crystal-clear waters and breathtaking landscapes.",
+        "Explore the majestic Mount Rinjani, an active volcano offering challenging treks and stunning views from its summit.",
+        "Discover the traditional Sasak culture at Sade Village, showcasing authentic architecture and local crafts.",
+        "Take a boat trip to the Gili Islands for fantastic snorkeling, white sandy beaches, and a laid-back island vibe.",
+        "Visit Tiu Kelep and Sendang Gile waterfalls, nestled in lush greenery, providing a refreshing escape and stunning views.",
+        "Explore the Pura Lingsar Temple, a unique religious site where Hindu and Muslim traditions converge.",
+        "Experience the bustling local life at Pusuk Monkey Forest, offering scenic views and playful monkey encounters along the way.",
+        "Enjoy the serene beauty of Narmada Park, known for its lush gardens, sacred pools, and historical significance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "RajaAmpat",
+      "patterns": [
+        "I'm planning a trip to Raja Ampat, what should I do?",
+        "Any suggestions for exploring Raja Ampat?",
+        "What makes Raja Ampat unique?",
+        "Can you recommend outdoor activities in Raja Ampat?",
+        "Where can I find the best diving spots in Raja Ampat?",
+        "Tell me more about the islands in Raja Ampat.",
+        "Any tips for traveling to Raja Ampat?",
+        "What's the best time to visit Raja Ampat?",
+        "Are there any cultural experiences in Raja Ampat?",
+        "What wildlife can I see in Raja Ampat?"
+      ],
+      "responses": [
+        "Raja Ampat offers an abundance of activities, from diving and snorkeling to exploring the rich marine life and natural beauty.",
+        "Don't miss iconic spots like Piaynemo, with its stunning viewpoints and panoramic vistas of the islands.",
+        "Experience the warm hospitality of the local communities, offering insights into the Papuan culture.",
+        "If you're a nature enthusiast, Raja Ampat boasts incredible biodiversity, with rare species both on land and underwater.",
+        "Consider a liveaboard experience to fully immerse yourself in the wonders of Raja Ampat, exploring multiple sites.",
+        "The best time to visit is from October to April when the weather is drier, offering optimal conditions for diving and sightseeing.",
+        "Make sure to respect the delicate ecosystem and follow responsible travel practices while visiting Raja Ampat.",
+        "There are numerous festivals and events celebrating local traditions; try to coincide your visit with one for a unique experience."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "BromoTenggerSemeru",
+      "patterns": [
+        "I'm planning to visit Bromo-Tengger-Semeru National Park, what should I know?",
+        "What are the highlights of Bromo-Tengger-Semeru National Park?",
+        "Can you suggest activities to do in Bromo-Tengger-Semeru?",
+        "What makes Bromo-Tengger-Semeru National Park unique?",
+        "Tell me more about Mount Bromo and its surroundings.",
+        "When is the best time to visit Bromo-Tengger-Semeru?",
+        "Are there any hiking trails in Bromo-Tengger-Semeru?",
+        "What wildlife can be found in Bromo-Tengger-Semeru National Park?",
+        "Can I camp in Bromo-Tengger-Semeru?",
+        "Any tips for visiting Bromo-Tengger-Semeru National Park?"
+      ],
+      "responses": [
+        "Bromo-Tengger-Semeru National Park is renowned for its stunning landscapes, encompassing volcanoes, savannas, and diverse flora.",
+        "Don't miss catching the sunrise over Mount Bromo; it's a breathtaking experience.",
+        "There are various activities like hiking Mount Semeru, visiting the caldera, and exploring the Sea of Sand.",
+        "The park is a unique combination of volcanic landscapes, rich biodiversity, and cultural heritage of the Tenggerese people.",
+        "The best time to visit is during the dry season from April to October for clearer views and more favorable trekking conditions.",
+        "For hikers, Mount Semeru offers challenging trails, including the famous summit climb.",
+        "The park hosts various wildlife, including Javan langurs, deer, and a variety of bird species.",
+        "Camping is allowed in designated areas, offering a chance to immerse in the park's natural beauty.",
+        "Remember to dress appropriately, carry enough water, and respect the park's rules and nature while exploring."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Toraja",
+      "patterns": [
+        "What are the attractions in Toraja?",
+        "Tell me about Toraja's cultural heritage.",
+        "Can you recommend places to visit in Toraja?",
+        "What makes Toraja unique?",
+        "I'm interested in learning about Toraja's traditional rituals.",
+        "When is the best time to visit Toraja?",
+        "Are there any famous festivals or events in Toraja?",
+        "Can I witness a traditional funeral ceremony in Toraja?",
+        "What are the main highlights of Toraja?",
+        "Do you have any travel tips for visiting Toraja?"
+      ],
+      "responses": [
+        "Toraja is known for its stunning landscapes, traditional houses called 'Tongkonan,' and elaborate funeral ceremonies called 'Rambu Solo.'",
+        "The cultural richness of Toraja includes unique funeral rituals, traditional architecture, and intricate wood carvings.",
+        "Must-visit places include Ke'te Kesu Village, Londa Burial Cave, Lemo, and the picturesque rice terraces.",
+        "Toraja's uniqueness lies in its distinctive culture, strong traditions, and the warmth of its people.",
+        "The dry season from May to September is the best time to visit for favorable weather and to witness traditional ceremonies.",
+        "The 'Rambu Solo' funeral ceremony is a significant event in Toraja's cultural calendar.",
+        "Yes, you might have the opportunity to witness the 'Rambu Solo' funeral ceremony, but it's essential to approach it respectfully.",
+        "The fascinating landscapes, unique architecture, and rich cultural traditions are among Toraja's main highlights.",
+        "Be respectful of local customs, take part in guided tours to learn more, and engage with the friendly locals to understand their traditions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Labuan Bajo",
+      "patterns": [
+        "I heard Labuan Bajo has beautiful sunsets. Is that true?",
+        "Could you suggest some budget-friendly accommodations in Labuan Bajo?",
+        "What kind of cuisines can I try in Labuan Bajo?",
+        "Are there any traditional markets worth visiting in Labuan Bajo?",
+        "Tell me about the culture of the local communities near Labuan Bajo.",
+        "I'm interested in photography. Are there picturesque spots in Labuan Bajo?",
+        "Do you have any information about the history of Labuan Bajo?",
+        "Are there any water activities apart from diving in Labuan Bajo?",
+        "Is there a local festival or event that happens in Labuan Bajo?",
+        "Could you recommend a reliable tour guide for Labuan Bajo?"
+      ],
+      "responses": [
+        "Yes, Labuan Bajo offers breathtaking sunsets, especially from places like Paradise Bar or Kalong Island.",
+        "For budget-friendly stays, you can consider hostels like Bajo Nature Backpackers or guesthouses like Gardena Hotel.",
+        "Labuan Bajo offers a mix of Indonesian and international cuisines. You should try seafood dishes and local delicacies like nasi goreng.",
+        "Check out Pasar Wae Kelambu or Pasar Malam Kampung Ujung for a taste of local markets and their unique products.",
+        "The local communities in Labuan Bajo have diverse cultures, including Manggarai, Bajawa, and Ngada, each with their own traditions.",
+        "Labuan Bajo is a paradise for photographers, especially at spots like Bukit Cinta and Gili Lawa Darat for stunning panoramic views.",
+        "The history of Labuan Bajo revolves around its fishing communities, with its recent growth attributed to the development of tourism.",
+        "Apart from diving, you can enjoy snorkeling, kayaking, and paddleboarding in the crystal-clear waters of Labuan Bajo.",
+        "The Wae Rebo Festival celebrates the Manggarai culture, featuring traditional dances, music, and rituals.",
+        "You can check with reputable tour companies like Flores XP or Exotic Komodo for experienced and knowledgeable guides."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Danau Toba",
+      "patterns": [
+        "What are the best times to visit Danau Toba?",
+        "Can you recommend some accommodations around Danau Toba?",
+        "Are there any water sports available at Danau Toba?",
+        "Tell me about the culture of the Batak people around Danau Toba.",
+        "Is Samosir Island worth visiting in Danau Toba?",
+        "What kind of traditional food can I try near Danau Toba?",
+        "Are there any hiking trails near Danau Toba?",
+        "Can you suggest a good viewpoint for admiring Danau Toba?",
+        "Is there any local festival or event that happens near Danau Toba?",
+        "Are there tour guides available for exploring Danau Toba?"
+      ],
+      "responses": [
+        "The best time to visit Danau Toba is from May to September when the weather is pleasant and the views are stunning.",
+        "For accommodations, check out places like Toba Village Inn or Mas Cottages for a comfortable stay near Danau Toba.",
+        "You can enjoy activities like swimming, jet skiing, and banana boat rides at Danau Toba.",
+        "The Batak people around Danau Toba have a rich cultural heritage. You can experience their traditions, music, and dance.",
+        "Samosir Island is a must-visit in Danau Toba, offering beautiful scenery, traditional villages, and the famous stone chairs.",
+        "Try Batak cuisines like Naniura (raw fish), Saksang (pork cooked in blood), and Arsik (fish cooked in spices) near Danau Toba.",
+        "Explore hiking trails around Pangururan or climb Pusuk Buhit for panoramic views of Danau Toba.",
+        "For a breathtaking view, head to Tele Samosir to admire the vastness of Danau Toba.",
+        "The Sigale-gale Festival and Gondang Naposo are cultural events showcasing Batak traditions around Danau Toba.",
+        "Local tour guides are available and can be arranged through resorts or travel agencies near Danau Toba."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pulau Komodo",
+      "patterns": [
+        "What are the main attractions on Pulau Komodo?",
+        "Are there any guided tours available on Pulau Komodo?",
+        "Can I see the Komodo dragons up close on Pulau Komodo?",
+        "Tell me about the diving spots around Pulau Komodo.",
+        "When is the best time to visit Pulau Komodo?",
+        "Is it safe to hike in Pulau Komodo?",
+        "Can I camp on Pulau Komodo?",
+        "What kind of wildlife can I see on Pulau Komodo besides Komodo dragons?",
+        "Are there any restrictions or rules I should know about while visiting Pulau Komodo?",
+        "Where can I find accommodations near Pulau Komodo?"
+      ],
+      "responses": [
+        "The main attractions on Pulau Komodo are the Komodo dragons, Pink Beach, and Padar Island with its panoramic views.",
+        "Yes, there are guided tours led by experienced rangers available to explore Pulau Komodo safely.",
+        "You can see the Komodo dragons in their natural habitat. Always follow ranger instructions for safety.",
+        "Diving in Pulau Komodo offers breathtaking underwater landscapes and diverse marine life. Check out sites like Batu Bolong and Manta Point.",
+        "The best time to visit Pulau Komodo is during the dry season from April to December for favorable weather conditions.",
+        "Hiking in Pulau Komodo is generally safe, but it's recommended to go with a guide and wear appropriate gear.",
+        "Camping is allowed in designated areas on Pulau Komodo. Make sure to get permits and follow park regulations.",
+        "Besides Komodo dragons, you can spot deer, monkeys, birds, and marine life like manta rays and turtles around Pulau Komodo.",
+        "Respect park rules, stay on marked trails, and never disturb the wildlife while visiting Pulau Komodo.",
+        "Accommodations can be found in Labuan Bajo, the gateway to Pulau Komodo, offering various hotels, resorts, and guesthouses."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pulau Weh",
+      "patterns": [
+        "What are the must-visit places on Pulau Weh?",
+        "Can I go diving around Pulau Weh?",
+        "Tell me about the best beaches on Pulau Weh.",
+        "Are there any cultural attractions on Pulau Weh?",
+        "When is the best time to visit Pulau Weh?",
+        "What water activities can I enjoy on Pulau Weh?",
+        "Is there a good hiking trail on Pulau Weh?",
+        "Are there any specific rules for visitors on Pulau Weh?",
+        "Where can I find accommodation options on Pulau Weh?"
+      ],
+      "responses": [
+        "Must-visit places on Pulau Weh include Iboih Beach, Sabang City, and Sumur Tiga Beach for snorkeling.",
+        "Yes, Pulau Weh offers amazing diving spots like Rubiah Sea Garden and Sophie Rickmers wreck site.",
+        "Some of the best beaches on Pulau Weh are Gapang Beach and Kasih Beach, perfect for relaxation and snorkeling.",
+        "Pulau Weh has cultural sites like Kilometer Zero Monument and historical remnants from World War II.",
+        "The best time to visit Pulau Weh is between April to October, during the dry season for ideal weather conditions.",
+        "You can enjoy activities like snorkeling, diving, swimming, and even surfing in some areas around Pulau Weh.",
+        "The trail to the top of Gunung Batu is a popular hiking option on Pulau Weh, offering stunning views.",
+        "Respect local customs and environmental regulations while visiting Pulau Weh. Refrain from damaging coral reefs and littering.",
+        "Accommodation options on Pulau Weh range from budget guesthouses to beachfront resorts in areas like Iboih and Gapang."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Tana Toraja",
+      "patterns": [
+        "What are the famous cultural attractions in Tana Toraja?",
+        "Tell me about the traditional ceremonies in Tana Toraja.",
+        "Are there any unique burial sites in Tana Toraja?",
+        "When is the best time to visit Tana Toraja?",
+        "What cultural experiences can I have in Tana Toraja?",
+        "Where can I witness the Torajan traditional architecture?",
+        "What are the must-visit places in Tana Toraja?",
+        "Can I participate in any local festivals in Tana Toraja?",
+        "Are there any trekking trails around Tana Toraja?"
+      ],
+      "responses": [
+        "Tana Toraja is famous for its unique funeral ceremonies like Rambu Solo, held to honor the deceased.",
+        "Traditional Torajan ceremonies like Rambu Tuka' and Rambu Siam are prominent cultural events.",
+        "Tana Toraja has unique burial sites called 'londa' and 'liang', carved into rocks and cliffs.",
+        "The best time to visit Tana Toraja is during the festival season from June to August.",
+        "Immerse yourself in the Torajan culture by staying in a Tongkonan, the traditional Torajan house.",
+        "Must-visit places in Tana Toraja include Ke'te Kesu, Londa Burial Site, and Lemo Stone Grave.",
+        "Participate in Torajan festivals like Ma'badong, a thanksgiving festival, and Toraja International Festival.",
+        "There are trekking trails around Batutumonga and Buntu Pune villages offering scenic views of rice terraces."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pulau Derawan",
+      "patterns": [
+        "What are the attractions on Derawan Island?",
+        "Tell me about the diving spots in Derawan.",
+        "Are there any sea turtles nesting sites on Derawan Island?",
+        "When is the best time to visit Derawan Island?",
+        "What marine life can I see when snorkeling in Derawan?",
+        "Where can I find accommodation on Derawan Island?",
+        "What are the must-visit islands around Derawan?",
+        "Can I go on a boat tour around Derawan Island?",
+        "Are there any conservation efforts on Derawan for marine life?"
+      ],
+      "responses": [
+        "Derawan Island offers attractions like Jellyfish Lake, Sangalaki Island, and Maratua Island.",
+        "Diving spots like Blue Trigger Wall and Turtle Traffic are popular for diverse marine life.",
+        "Derawan is famous for sea turtle nesting sites, especially at Sangalaki and Kakaban Island.",
+        "The best time to visit Derawan is from April to November during the dry season.",
+        "When snorkeling, you'll encounter diverse marine life including colorful fish and coral reefs.",
+        "Accommodations are available on Derawan Island at various resorts and guesthouses.",
+        "Visit nearby islands like Kakaban, Maratua, and Sangalaki for a complete Derawan experience.",
+        "Boat tours are available to explore the surrounding islands and their natural beauty.",
+        "Conservation programs on Derawan aim to protect sea turtles and the diverse marine ecosystem."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Gunung Rinjani",
+      "patterns": [
+        "What are the trekking routes on Mount Rinjani?",
+        "Tell me about the difficulty level of climbing Mount Rinjani.",
+        "Are there any camping sites on Mount Rinjani?",
+        "When is the best time to hike Mount Rinjani?",
+        "What are the main attractions on Mount Rinjani?",
+        "Is a guide necessary to climb Mount Rinjani?",
+        "Can I see the crater lake at the summit of Mount Rinjani?",
+        "Are there any restrictions or permits needed to climb Mount Rinjani?",
+        "What is the height of Mount Rinjani?"
+      ],
+      "responses": [
+        "Mount Rinjani has several trekking routes like Senaru, Sembalun, and Torean.",
+        "The climb can be challenging due to steep paths, but various difficulty levels are available.",
+        "Camping sites are available at different elevations on Mount Rinjani.",
+        "The best time to hike Rinjani is from April to November during the dry season.",
+        "The main attractions are the summit crater, Segara Anak Lake, and hot springs.",
+        "While it's possible to climb independently, a guide is recommended for safety.",
+        "Yes, the crater lake, Segara Anak, is one of the stunning features at the summit.",
+        "Permits and guides are required to climb Rinjani, and certain areas have restrictions.",
+        "Mount Rinjani stands at an altitude of 3,726 meters above sea level."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pulau Bunaken",
+      "patterns": [
+        "What makes Bunaken Island a great tourist spot?",
+        "Can you describe the beauty of Bunaken Island?",
+        "What are the unique features of Bunaken Island?",
+        "Tell me more about Bunaken's underwater world.",
+        "Are there any specific regulations for visitors on Bunaken Island?",
+        "How diverse is the marine life around Bunaken?",
+        "Can you recommend some less crowded spots for snorkeling in Bunaken?",
+        "What types of fish and corals can be found around Bunaken Island?",
+        "Is it possible to see sea turtles while diving around Bunaken?",
+        "Are there any particular safety measures I should take while exploring Bunaken's marine life?"
+      ],
+      "responses": [
+        "Bunaken is known for its crystal-clear waters and diverse marine life.",
+        "The beauty of Bunaken lies in its pristine reefs and rich underwater biodiversity.",
+        "The unique feature of Bunaken is its thriving underwater ecosystem.",
+        "The underwater world of Bunaken is a paradise for divers and snorkelers.",
+        "Visitors are required to follow marine park rules to preserve Bunaken's ecosystem.",
+        "Bunaken boasts a wide array of marine species due to its healthy coral reefs.",
+        "Less crowded snorkeling spots include Bunaken Timur and Pangalisang.",
+        "You'll encounter various fish species like parrotfish, butterflyfish, and angelfish in Bunaken.",
+        "Yes, sea turtles are commonly spotted while diving in Bunaken.",
+        "Ensure you have proper diving certifications and follow the guidance of experienced guides while exploring Bunaken."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pulau Karimunjawa",
+      "patterns": [
+        "What makes Karimunjawa Island special?",
+        "Can you describe the beauty of Karimunjawa Island?",
+        "Tell me more about the attractions in Karimunjawa.",
+        "Are there any particular water sports available in Karimunjawa?",
+        "How accessible is Karimunjawa from the mainland?",
+        "Can you suggest some off-the-beaten-path spots to explore in Karimunjawa?",
+        "What types of accommodations are available on Karimunjawa Island?",
+        "Is it possible to see dolphins or other marine life around Karimunjawa?",
+        "What are some local delicacies or dishes I should try in Karimunjawa?",
+        "Are there any regulations or conservation efforts for protecting Karimunjawa's environment?"
+      ],
+      "responses": [
+        "Karimunjawa is known for its pristine beaches and vibrant marine life.",
+        "The beauty of Karimunjawa lies in its turquoise waters and stunning coral reefs.",
+        "Karimunjawa offers attractions like snorkeling, diving, and serene beaches.",
+        "Visitors can enjoy snorkeling, diving, and kayaking in the waters around Karimunjawa.",
+        "Karimunjawa is accessible via ferries or speedboats from Jepara, Central Java.",
+        "Lesser-known spots like Geleang Island and Menjangan Kecil are great to explore in Karimunjawa.",
+        "Accommodations on Karimunjawa range from budget-friendly guesthouses to beachfront resorts.",
+        "Dolphin sightings are possible during certain times around Karimunjawa.",
+        "You should try local seafood dishes like grilled fish or sambal shrimp while in Karimunjawa.",
+        "Karimunjawa has conservation efforts to protect its coral reefs and marine biodiversity."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pantai Kuta",
+      "patterns": [
+        "Tell me about Kuta Beach.",
+        "What makes Kuta Beach famous?",
+        "Can you describe the attractions near Kuta Beach?",
+        "Are there any water sports available at Kuta Beach?",
+        "How crowded does Kuta Beach get?",
+        "What's the best time to visit Kuta Beach?",
+        "Is Kuta Beach suitable for families?",
+        "What kind of accommodations are available near Kuta Beach?",
+        "Are there any local food stalls or restaurants near Kuta Beach?",
+        "What safety measures should one consider at Kuta Beach?"
+      ],
+      "responses": [
+        "Kuta Beach is renowned for its golden sand and vibrant sunsets.",
+        "The nightlife, surfing, and shopping around Kuta Beach attract many visitors.",
+        "Attractions nearby include Waterbom Bali and Kuta Art Market.",
+        "Kuta Beach offers activities like surfing, parasailing, and banana boating.",
+        "Kuta Beach can get quite crowded, especially during peak tourist seasons.",
+        "The best time to visit Kuta Beach is during the early morning or late afternoon.",
+        "Kuta Beach has a lively atmosphere suitable for families, but the waves can be strong for young children.",
+        "Accommodations near Kuta Beach range from budget hostels to luxury resorts.",
+        "Local warungs (food stalls) offer traditional Indonesian dishes near Kuta Beach.",
+        "Swimmers should be cautious of strong currents while swimming at Kuta Beach."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pulau Belitung",
+      "patterns": [
+        "Can you tell me about Belitung Island?",
+        "I'd like to know more about Belitung. What can you share?",
+        "What makes Belitung Island a popular destination?",
+        "I'm planning a trip to Belitung. What should I explore?",
+        "Any recommendations for attractions on Belitung Island?",
+        "Could you describe the unique features of Belitung's beaches?",
+        "Are there any historical sites worth visiting on Belitung?",
+        "What kind of water activities are available on Belitung Island?",
+        "When's the best time to visit Belitung?",
+        "What are the must-see spots on Belitung Island?",
+        "Are there any local delicacies one should try in Belitung?",
+        "How is transportation around Belitung Island?"
+      ],
+      "responses": [
+        "Belitung Island is famous for its stunning beaches, distinctive granite rocks, and crystal-clear waters.",
+        "The popularity of Belitung is due to its beautiful landscapes, pristine beaches, and unique rock formations.",
+        "When in Belitung, explore attractions like Tanjung Tinggi Beach, Lengkuas Island, and the picturesque Tanjung Kelayang Beach.",
+        "The beaches of Belitung are renowned for their granite boulders, pristine sands, and enchanting views.",
+        "Historical sites like Vihara Buddhayana and the Museum Kata Andrea Hirata are worth a visit on Belitung.",
+        "On Belitung Island, you can engage in activities such as island hopping, snorkeling, and exploring old tin mines.",
+        "The best time to visit Belitung is during the dry season, typically from April to October.",
+        "Landmarks such as the Lighthouse on Lengkuas Island and Tanjung Kelayang Beach are iconic spots on Belitung Island.",
+        "Local specialties like Mie Belitung (Belitung noodles) and traditional cakes are must-try delicacies on the island.",
+        "Transport options on Belitung include rental cars, motorcycles, and taxis to get around conveniently."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Kawah Ijen",
+      "patterns": [
+        "Can you tell me about Kawah Ijen?",
+        "I'd like to know more about Kawah Ijen. What can you share?",
+        "What makes Kawah Ijen a popular destination?",
+        "I'm planning a trip to Kawah Ijen. What should I explore?",
+        "Any recommendations for activities around Kawah Ijen?",
+        "Could you describe the unique features of Kawah Ijen's volcanic crater?",
+        "Are there any special safety tips for visiting Kawah Ijen?",
+        "What's the best time to visit Kawah Ijen?",
+        "What are the must-see spots at Kawah Ijen?",
+        "Is there any local cuisine to try around Kawah Ijen?",
+        "How's the transportation to Kawah Ijen?",
+        "What should I know before trekking at Kawah Ijen?"
+      ],
+      "responses": [
+        "Kawah Ijen is famous for its mesmerizing blue fire phenomena, acidic crater lake, and sulfur mining activities.",
+        "The popularity of Kawah Ijen lies in its breathtaking blue flames, turquoise lake, and stunning landscapes.",
+        "When visiting Kawah Ijen, explore the blue fire phenomenon, the turquoise acidic lake, and the sulfur mines.",
+        "The volcanic blue flames and turquoise acidic lake are the key attractions at Kawah Ijen.",
+        "Safety tips include wearing a mask around sulfur fumes and being cautious on the trekking paths.",
+        "The best time to visit Kawah Ijen is during the dry season, usually from April to October.",
+        "The iconic spots at Kawah Ijen include the blue fire area and the acidic crater lake.",
+        "Local food like Mie Rebus and traditional Javanese dishes can be found in nearby towns close to Kawah Ijen.",
+        "Transportation options to Kawah Ijen include hiring a local guide or using rented vehicles.",
+        "Before trekking at Kawah Ijen, it's advisable to be physically prepared for the uphill hike and to wear proper gear."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Disneyland",
+      "patterns": [
+        "Tokyo Disneyland",
+        "Disneyland Tokyo",
+        "Disneyland in Tokyo",
+        "Tokyo DisneySea",
+        "DisneySea Tokyo",
+        "DisneySea in Tokyo",
+        "Theme park in Tokyo",
+        "Tokyo amusement park",
+        "Disneyland rides",
+        "DisneySea attractions"
+      ],
+      "responses": [
+        "Tokyo Disneyland and DisneySea offer an array of enchanting rides and magical experiences for all ages!",
+        "Tokyo Disneyland and DisneySea are iconic theme parks, each with its own charm and attractions.",
+        "Disneyland and DisneySea in Tokyo provide a world of fantasy and excitement through their unique rides and shows."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Senso-ji_information",
+      "patterns": [
+        "Tell me about Senso-ji",
+        "What can you tell me about Senso-ji temple?",
+        "I want information about Senso-ji",
+        "Could you share details about Senso-ji in Tokyo?",
+        "What's the history of Senso-ji?"
+      ],
+      "responses": [
+        "Senso-ji is an ancient Buddhist temple in Asakusa, Tokyo, known for its vibrant atmosphere and cultural significance.",
+        "Visiting Senso-ji offers a glimpse into Tokyo's rich history and spiritual heritage.",
+        "Senso-ji, situated in the heart of Asakusa, is one of Tokyo's most revered and visited temples."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Shibuya_Crossing_info",
+      "patterns": [
+        "I'm curious about Shibuya Crossing, can you elaborate?",
+        "Tell me what makes Shibuya Crossing famous.",
+        "Could you describe Shibuya Crossing in detail?",
+        "What's the attraction of Shibuya Crossing?",
+        "What's the history behind Shibuya Crossing?",
+        "Can you share insights about Shibuya Crossing?"
+      ],
+      "responses": [
+        "Shibuya Crossing is a prominent pedestrian intersection known for its vibrant atmosphere and constant flow of people.",
+        "It's an iconic landmark in Tokyo, often featured in movies and documentaries due to its dynamic nature."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Tokyo_Tower_info",
+      "patterns": [
+        "What's special about Tokyo Tower?",
+        "Tell me about Tokyo Tower's history.",
+        "Why is Tokyo Tower famous?",
+        "Can you describe Tokyo Tower in detail?",
+        "What attractions can be found at Tokyo Tower?",
+        "I'd like to know more about Tokyo Tower."
+      ],
+      "responses": [
+        "Tokyo Tower is an iconic landmark offering panoramic views, cultural exhibits, and entertainment.",
+        "It's a symbol of Tokyo, known for its observation decks and various attractions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Meiji_Shrine_info",
+      "patterns": [
+        "What is Meiji Shrine famous for?",
+        "Can you tell me about Meiji Shrine's history?",
+        "What can I expect to see at Meiji Shrine?",
+        "Why is Meiji Shrine a popular attraction?",
+        "Could you describe Meiji Shrine in detail?"
+      ],
+      "responses": [
+        "Meiji Shrine is renowned for its serene atmosphere, traditional architecture, and beautiful gardens.",
+        "It's a significant Shinto shrine dedicated to Emperor Meiji and Empress Shoken."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Tsukiji_Fish_Market_info",
+      "patterns": [
+        "What's special about Tsukiji Fish Market?",
+        "Can you tell me about Tsukiji Fish Market?",
+        "What kind of seafood can I find at Tsukiji Fish Market?",
+        "Why is Tsukiji Fish Market famous?",
+        "What's the history behind Tsukiji Fish Market?"
+      ],
+      "responses": [
+        "Tsukiji Fish Market is renowned for its wide variety of fresh seafood and the tuna auction.",
+        "It used to be the world's largest wholesale fish and seafood market."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Akihabara_info",
+      "patterns": [
+        "What is Akihabara known for?",
+        "Tell me about Akihabara.",
+        "What can I do in Akihabara?",
+        "Why is Akihabara famous?",
+        "Are there electronics stores in Akihabara?"
+      ],
+      "responses": [
+        "Akihabara is famous for its electronics shops, anime culture, and gaming arcades.",
+        "It's a district in Tokyo known for its vibrant anime and manga scene as well as electronic shops."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Odaiba_info",
+      "patterns": [
+        "What can I explore in Odaiba?",
+        "Can you tell me about Odaiba's attractions?",
+        "I'm curious about Odaiba, what's there to see?",
+        "Any recommendations for places to visit in Odaiba?",
+        "What makes Odaiba a popular destination?"
+      ],
+      "responses": [
+        "Odaiba is known for its stunning views, shopping centers, museums, and entertainment options.",
+        "You'll find a variety of attractions in Odaiba including shopping malls, amusement parks, and beautiful waterfront views."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Ginza_info",
+      "patterns": [
+        "Could you tell me about Ginza's highlights?",
+        "I'd like to know what makes Ginza unique.",
+        "What attractions should I explore in Ginza?",
+        "Could you elaborate on what I can find in Ginza?",
+        "Tell me more about Ginza's renowned spots."
+      ],
+      "responses": [
+        "Ginza is renowned for its luxurious shopping district, diverse dining options, and vibrant entertainment venues.",
+        "Visiting Ginza offers access to top-notch shopping, cultural experiences, and a bustling nightlife."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Ueno_Park_info",
+      "patterns": [
+        "Can you provide information about Ueno Park?",
+        "Tell me more about Ueno Park.",
+        "What can I explore in Ueno Park?",
+        "What are the attractions in Ueno Park?",
+        "Could you explain what makes Ueno Park special?"
+      ],
+      "responses": [
+        "Ueno Park is a beautiful public park known for its museums, cherry blossoms, and zoo.",
+        "In Ueno Park, visitors can enjoy museums, serene gardens, and seasonal events like cherry blossom viewing."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Kinkakuji_info",
+      "patterns": [
+        "What's the history behind Kinkaku-ji Temple?",
+        "Tell me the story of Kinkaku-ji Temple.",
+        "Why is Kinkaku-ji famous?",
+        "Can you share interesting facts about Kinkaku-ji?",
+        "Describe the architecture of Kinkaku-ji Temple."
+      ],
+      "responses": [
+        "Kinkaku-ji, also known as the Golden Pavilion, has a rich history dating back to the 14th century when it was originally built as a villa for a shogun.",
+        "The fame of Kinkaku-ji Temple is attributed to its stunning gold leaf exterior, which symbolizes the harmony between heaven and earth in Zen Buddhism.",
+        "The Golden Pavilion, Kinkaku-ji, is a UNESCO World Heritage Site and an iconic structure in Kyoto attracting visitors with its captivating beauty."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fushimi_Inari_Taisha_info",
+      "patterns": [
+        "What's special about Fushimi Inari Taisha?",
+        "Can you describe Fushimi Inari Taisha?",
+        "What's the history behind Fushimi Inari Taisha?",
+        "Why is Fushimi Inari Taisha famous?",
+        "Could you explain the significance of the torii gates at Fushimi Inari Taisha?",
+        "Tell me about the spiritual significance of Fushimi Inari Taisha.",
+        "How long does it take to explore Fushimi Inari Taisha?",
+        "What activities can I do at Fushimi Inari Taisha?",
+        "Are there any rituals or ceremonies at Fushimi Inari Taisha?",
+        "Can you provide information on the annual festivals held at Fushimi Inari Taisha?"
+      ],
+      "responses": [
+        "Fushimi Inari Taisha is renowned for its thousands of vermilion torii gates, symbolizing good fortune and prosperity.",
+        "The shrine dates back to the 8th century and is dedicated to Inari, the Shinto god of rice, sake, and prosperity.",
+        "Visitors can hike through the torii gates, explore the trails on Mount Inari, and witness stunning views of Kyoto.",
+        "The shrine holds various ceremonies and festivals throughout the year, including the Omikuji fortune-telling and New Year celebrations."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Nijo_Castle_info",
+      "patterns": [
+        "Can you tell me about Nijo Castle?",
+        "What makes Nijo Castle special?",
+        "What are the features of Nijo Castle?",
+        "Tell me more about the history of Nijo Castle.",
+        "What can I explore in Nijo Castle?",
+        "Why should I visit Nijo Castle?",
+        "What's interesting about Nijo Castle?",
+        "What are the must-see areas in Nijo Castle?",
+        "Are there any events held at Nijo Castle?",
+        "How old is Nijo Castle?"
+      ],
+      "responses": [
+        "Nijo Castle is a UNESCO World Heritage Site known for its splendid architecture, beautiful gardens, and historical significance.",
+        "Built in the 17th century, Nijo Castle was the residence of the Tokugawa shoguns and showcases exquisite architecture and serene gardens.",
+        "Visitors can explore the Ninomaru Palace with its 'nightingale floors', beautiful paintings, and the Honmaru Palace at Nijo Castle.",
+        "Throughout the year, various events, exhibitions, and cultural activities take place at Nijo Castle."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Arashiyama_Bamboo_Grove_info",
+      "patterns": [
+        "Could you tell me about the Bamboo Grove in Arashiyama?",
+        "What's the Bamboo Forest in Arashiyama like?",
+        "Can you give me information about Arashiyama's Bamboo Grove?",
+        "What should I know about the Bamboo Grove in Arashiyama?",
+        "Tell me something interesting about Arashiyama's Bamboo Forest.",
+        "What makes the Bamboo Grove in Arashiyama famous?",
+        "I'm curious about the Bamboo Grove in Arashiyama.",
+        "Could you describe Arashiyama's Bamboo Forest?",
+        "What are the attractions in Arashiyama's Bamboo Grove?",
+        "I want to know more about the Bamboo Grove in Arashiyama."
+      ],
+      "responses": [
+        "Arashiyama's Bamboo Grove is a serene forested area filled with towering bamboo stalks, creating a picturesque natural setting.",
+        "The Bamboo Grove in Arashiyama is renowned for its enchanting atmosphere, walking paths, and the rustling sound of bamboo in the wind.",
+        "Visitors to the Bamboo Grove in Arashiyama can stroll along scenic paths, enjoying the beauty and tranquility of this unique bamboo forest.",
+        "Arashiyama's Bamboo Grove offers a surreal experience as you walk amidst the tall bamboo, which creates an otherworldly atmosphere."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Tokyo_destinations",
+      "patterns": [
+        "Can you recommend some tourist spots in Tokyo?",
+        "What are the must-visit places in Tokyo?",
+        "Could you suggest attractions to explore in Tokyo?",
+        "What are the best destinations in Tokyo?",
+        "Tell me about famous places to visit in Tokyo.",
+        "Which spots should I explore when in Tokyo?",
+        "I'm planning a trip to Tokyo, what places should I include in my itinerary?",
+        "What are the top tourist attractions in Tokyo?",
+        "Can you list some popular destinations to explore in Tokyo?",
+        "I want to know more about Tokyo's tourist attractions."
+      ],
+      "responses": [
+        "Tokyo has numerous attractions including Tokyo Disneyland, Senso-ji Temple, Tokyo Tower, Meiji Shrine, and Tsukiji Fish Market.",
+        "Some must-visit places in Tokyo are Shibuya Crossing, Ueno Park, Akihabara, Odaiba, and Ginza.",
+        "When in Tokyo, consider exploring attractions like the Imperial Palace, Shinjuku Gyoen National Garden, and Roppongi Hills.",
+        "Famous destinations in Tokyo include Asakusa district, Tokyo Skytree, Odaiba's Rainbow Bridge, and Tokyo Dome City.",
+        "Tokyo is filled with incredible places to visit! Don't miss the iconic Tokyo Disneyland and Tokyo DisneySea.",
+        "Explore the historical side of Tokyo by visiting the Senso-ji Temple in Asakusa and the Imperial Palace in Chiyoda.",
+        "For a panoramic view of the city, head to the observation deck of Tokyo Tower or Tokyo Skytree.",
+        "Experience the vibrant energy of Shibuya Crossing and the lively streets of Akihabara, known as the electronics and anime district.",
+        "In Odaiba, you'll find diverse attractions like the teamLab Borderless digital art museum and the futuristic Palette Town.",
+        "For a tranquil escape, visit Ueno Park with its museums, zoo, and beautiful cherry blossoms during the spring."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Kyoto_destinations",
+      "patterns": [
+        "What are some top tourist spots in Kyoto?",
+        "Could you give me recommendations for sightseeing in Kyoto?",
+        "Which places should I explore when I visit Kyoto?",
+        "Tell me about Kyoto's famous attractions.",
+        "What are the most popular destinations in Kyoto?",
+        "Can you suggest some must-see places in Kyoto?",
+        "I'm planning a trip to Kyoto. What attractions should I include?",
+        "What are the key tourist attractions in Kyoto?",
+        "Could you recommend some famous landmarks in Kyoto?",
+        "I want to learn more about Kyoto's tourist spots."
+      ],
+      "responses": [
+        "Kyoto offers stunning attractions like Kinkaku-ji (Golden Pavilion), Fushimi Inari Taisha, Arashiyama Bamboo Grove, and Kiyomizu-dera Temple.",
+        "Some must-visit places in Kyoto include Gion District, Nijo Castle, Philosopher's Path, and Kyoto Imperial Palace.",
+        "When exploring Kyoto, consider visiting Sagano Scenic Railway, Toei Kyoto Studio Park, and Nishiki Market.",
+        "Famous destinations in Kyoto encompass Ginkaku-ji (Silver Pavilion), Ryoan-ji Temple, Nijo Castle, and Kyoto Aquarium.",
+        "Discover Kyoto's charm by exploring places like Tofuku-ji Temple, Yasaka Shrine, Heian Shrine, and Kyoto National Museum.",
+        "Immerse yourself in Kyoto's culture with visits to Katsura Imperial Villa, Kyoto Railway Museum, Ninen-zaka, and Sanjusangen-do Temple."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Osaka_destinations",
+      "patterns": [
+        "Where are the best places to visit in Osaka?",
+        "What tourist attractions are popular in Osaka?",
+        "Can you suggest some famous landmarks in Osaka?",
+        "Tell me about Osaka's top destinations.",
+        "I'm interested in exploring Osaka. What spots should I include?",
+        "Which places define Osaka's tourism?",
+        "What are the recommended tourist spots in Osaka?",
+        "Could you list some must-see places in Osaka?",
+        "Share information about Osaka's renowned attractions.",
+        "What are Osaka's must-visit landmarks?"
+      ],
+      "responses": [
+        "In Osaka, there are attractions like Osaka Castle, Dotonbori, Universal Studios Japan, and Shitennoji Temple.",
+        "Must-see spots include Tsutenkaku Tower, Osaka Aquarium Kaiyukan, Kuromon Ichiba Market, and Umeda Sky Building.",
+        "When exploring Osaka, consider visiting Sumiyoshi Taisha, Tennoji Park, Osaka Museum of History, and Abeno Harukas.",
+        "Famous destinations in Osaka encompass Minoo Park, Osaka Science Museum, Tempozan Ferris Wheel, and Hozenji Yokocho.",
+        "Discover Osaka's charm by exploring places like Namba Yasaka Shrine, America Mura, Osaka Tenmangu Shrine, and Nifrel.",
+        "Immerse yourself in Osaka's culture with visits to Osaka Mint Bureau, Suntory Museum, Osaka Contemporary Art Center, and Osaka City Museum of Fine Arts."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Hiroshima_destinations",
+      "patterns": [
+        "What are the famous tourist spots in Hiroshima?",
+        "Can you recommend some must-visit places in Hiroshima?",
+        "Tell me about Hiroshima's iconic attractions.",
+        "I'm planning a trip to Hiroshima, which places should I see?",
+        "Where are the best destinations to explore in Hiroshima?",
+        "Could you suggest landmarks to visit in Hiroshima?",
+        "What are the top attractions in Hiroshima?",
+        "Share information about Hiroshima's key destinations.",
+        "What are the popular places to see in Hiroshima?",
+        "Which spots define Hiroshima's tourism?"
+      ],
+      "responses": [
+        "Hiroshima has landmarks like Hiroshima Peace Memorial Park, Atomic Bomb Dome, Hiroshima Castle, and Shukkeien Garden.",
+        "Must-visit spots include Itsukushima Shrine, Miyajima Island, Hiroshima Museum of Art, and Mazda Museum.",
+        "When exploring Hiroshima, consider visiting Hiroshima Orizuru Tower, Hiroshima Children's Museum, and Hiroshima City Museum of Contemporary Art.",
+        "Famous destinations in Hiroshima encompass Mitaki-dera Temple, Hiroshima National Peace Memorial Hall for the Atomic Bomb Victims, and Hiroshima Prefectural Art Museum.",
+        "Discover Hiroshima's charm by exploring places like Hiroshima Municipal Stadium, Hiroshima Central Park, Hiroshima Bay Area, and Hiroshima Peace Bell."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Nara_destinations",
+      "patterns": [
+        "Are there any famous landmarks in Nara?",
+        "Could you tell me about the attractions unique to Nara?",
+        "What are the historical sites worth visiting in Nara?",
+        "Can you recommend some offbeat places to explore in Nara?",
+        "I'm interested in Nara's tourist spots. Any suggestions?",
+        "What makes Nara a remarkable destination?",
+        "Share insights on Nara's most captivating sights.",
+        "Tell me about the cultural highlights of Nara.",
+        "Where can I find hidden gems in Nara?",
+        "Any lesser-known attractions in Nara?"
+      ],
+      "responses": [
+        "Nara boasts unique landmarks such as Nara Deer Park, Ukimido Pavilion, and Horyu-ji Temple.",
+        "Explore Nara's history with visits to Koriyama Castle, Naramachi Mechanical Toy Museum, and Shosoin.",
+        "For an offbeat experience, try visiting Mount Wakakusa, Tamukeyama Hachimangu Shrine, and the Nara National Museum of Science.",
+        "Nara's charm extends beyond the usual with places like Uda City, Murouji Temple, and Soni Kogen.",
+        "Discover Nara's hidden treasures at Naramachi Koshino Ie, Okadera Temple, and the Isonokami Jingu Shrine."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Hokkaido_destinations",
+      "patterns": [
+        "I'd like information on Hokkaido's famous attractions.",
+        "Could you give me insights into Hokkaido's noteworthy places?",
+        "Where are the best places to visit in Hokkaido?",
+        "What tourist destinations should I not miss in Hokkaido?",
+        "Can you suggest some sightseeing spots in Hokkaido?",
+        "Tell me about Hokkaido's renowned tourist sites.",
+        "Are there any off-the-beaten-path destinations in Hokkaido?",
+        "I want to explore Hokkaido, what are the must-see landmarks?",
+        "Do you have recommendations for iconic landmarks in Hokkaido?",
+        "What are the most captivating attractions Hokkaido has to offer?"
+      ],
+      "responses": [
+        "Don't miss Hokkaido's majestic natural beauty at Daisetsuzan National Park, Shikisai-no-Oka, and Lake Shikotsu.",
+        "Visit Hokkaido's cultural hotspots like Hokkaido Museum of Northern Peoples, Sapporo Beer Museum, and Otaru Music Box Museum.",
+        "For scenic wonders, explore Furano Flower Fields, Mount Hakodate, and Shikisai Hill in Biei.",
+        "Experience Hokkaido's outdoor activities at Shikisai Hill, Hell Valley in Noboribetsu, and Rusutsu Resort."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "tips",
+      "patterns": [
+        "Travel tips",
+        "Advice",
+        "Recommendations",
+        "Travel advice",
+        "Helpful tips",
+        "Suggestions",
+        "Tips for traveling",
+        "Any advice for a trip?",
+        "Looking for travel recommendations",
+        "Can you suggest some helpful tips?",
+        "I need advice for my travels",
+        "What are some good travel tips?",
+        "Seeking travel advice",
+        "Recommendations for my trip?",
+        "Do you have any tips for travelers?",
+        "Could you provide some travel suggestions?"
+      ],
+      "responses": [
+        "Stay connected: Carry a portable charger for your devices. Use travel apps for navigation and translation. Embrace spontaneity but stay informed.",
+        "Pack wisely: Bring versatile clothing suitable for different weather conditions. Limit the amount of luggage for ease of travel.",
+        "Health is wealth: Prioritize rest and sleep. Keep a balanced diet and stay active even during your travels.",
+        "Respect local customs: Learn about cultural norms and etiquette. Greet locals with a smile; it's a universal language!",
+        "Explore off the beaten path: Discover hidden gems and less touristy spots. You'll be amazed at what you find!",
+        "Be mindful of scams: Stay cautious of tourist traps and fraudulent activities. Trust your instincts and seek assistance if needed.",
+        "Budget wisely: Set a budget and keep track of your expenses. Look for free or discounted activities to save money.",
+        "Stay flexible: It's okay if plans change. Embrace unexpected experiences; they often make the best memories!",
+        "Travel responsibly: Reduce waste, conserve resources, and respect wildlife. Leave the destination better than you found it.",
+        "Document memories: Take photos, but also take time to immerse yourself in the moment. Memories last a lifetime!"
+      ],
+      "context_set": ""
+    }
+  ]
+}
